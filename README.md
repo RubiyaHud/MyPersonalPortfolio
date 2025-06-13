@@ -1,4 +1,8 @@
-# React + Vite
+### Initial Setup 
+- Create empty folder named "MyPersonalPortfolio"
+- Open the folder in VS Code
+- Create React Project using [Vite](https://vite.dev/guide/)
+- Intall TailwindCSS using as a [Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
