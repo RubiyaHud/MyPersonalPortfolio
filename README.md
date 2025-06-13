@@ -3,6 +3,8 @@
 - Open the folder in VS Code
 - Create React Project using [Vite](https://vite.dev/guide/)
 - Intall TailwindCSS using as a [Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
+- Organize the files and folders:
+    - Create `components` folder inside `src` folder and  create `layouts` folder inside `components` folder. `components` contains all small parts/components, layouts, pages of 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
