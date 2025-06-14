@@ -19,7 +19,7 @@
   
      
   
-- Typed.js works by attaching to a DOM element, so you'll usually use it in useEffect with a ref. Here's a basic example:
+- Typed.js works by attaching to a DOM element, so we'll usually use it in `useEffect` with a `ref`. Here's a basic example:
   ``` jsx
           // TypedText.jsx
         import React, { useEffect, useRef } from "react";
@@ -48,4 +48,19 @@
         export default TypedText;
 
   ```
-       
+
+- Use the Component in the App
+  
+  ``` jsx
+      import TypedText from "./TypedText";
+    
+    function App() {
+      return (
+        <div className="p-4">
+          <h1>Welcome to My Site</h1>
+          <TypedText />
+        </div>
+      );
+    }
+
+  ```
