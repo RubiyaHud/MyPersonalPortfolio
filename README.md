@@ -5,7 +5,8 @@
 - Intall TailwindCSS using as a [Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
 - Organize the files and folders:
     - Create `components` folder inside `src` folder and  create `layouts` folder inside it. `components` contains all small parts/components, layouts and pages, whereas `layouts` contains sections of the webpage.
-- Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin 
+- Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin
+- Install [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project
 
 ### Responsive Navbar by daisyUI
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
