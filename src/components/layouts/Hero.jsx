@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
-import { FaLinkedinIn, FaGithub, FaFacebookF, FaDev, FaCodepen } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaDev, FaCodepen, FaMedium  } from "react-icons/fa";
 
 import logoImg from "../../assets/logo.png";
 import Image from "../Image";
@@ -33,6 +33,7 @@ const Hero = () => {
 
     return (
         <section className="min-h-screen mx-auto bg-bgC  text-center ">
+            {/* Navbar part Start */}
             <div className="navbar bg-bgC">
                 {/* Navbar Start: Logo */}
                 <div className="navbar-start lg:pl-[50px]">
@@ -51,6 +52,7 @@ const Hero = () => {
                         <li><a> Resume </a></li>
                         <li><a> Portfolio </a></li>
                         <li><a> Skills </a></li>
+                        <li><a> Services </a></li>
                         <li><a> Blog </a></li>
                         <li><a> Contact </a></li>
                     </ul>
@@ -70,6 +72,7 @@ const Hero = () => {
                                 <li><a>Resume</a></li>
                                 <li><a>Portfolio</a></li>
                                 <li><a>Skills</a></li>
+                                <li><a>Services</a></li>
                                 <li><a>Blog</a></li>
                                 <li><a>Contact</a></li>
                             </ul>
@@ -77,7 +80,9 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            {/* Navbar part End */}
 
+            {/* Body Text Start */}
             <div className="lg:mt-52 mt-36">
                 <h2 className="mb-2 text-2xl md:text-3xl lg:text-4xl font-poppins font-medium text-indigo-400 "> Hi, I am </h2>
                 <h1 className="mb-4 text-4xl leading-[57.6px] md:text-[62px] md:leading-[74.4px] lg:text-[70px] lg:leading-[84px] font-poppins font-bold text-white ">
@@ -88,12 +93,13 @@ const Hero = () => {
                     <span ref={el} />
                 </h2>
             </div>
+            {/* Body Text End */}
 
+            {/* Social Media Links Start */}
             <div className="absolute bottom-13 right-10 flex gap-2 lg:block ">
-
                 <div className="lg:mb-2">
                     <a href="https://www.linkedin.com/in/rubiyahud/" target="_blank" rel="noopener noreferrer" >
-                        <FaLinkedinIn className="cursor-pointer p-[5px] text-amber-50 text-[35px] border border-y-zinc-400 rounded-sm hover:text-[#FB01AA]" />
+                        <FaLinkedinIn className="cursor-pointer p-[5px] text-amber-50 text-[35px] border border-y-zinc-400 rounded-sm hover:text-[#0094BA]" />
                     </a>
                 </div>
 
@@ -114,8 +120,14 @@ const Hero = () => {
                         <FaDev className='cursor-pointer p-[5px] text-amber-50 text-[35px] border border-y-zinc-400 rounded-sm  hover:text-[#24D3C8]' />
                     </a>
                 </div>
-
+                
+                <div className="lg:mb-2">
+                    <a href="https://medium.com/@rubiyahud" target="_blank" rel="noopener noreferrer">
+                        <FaMedium  className='cursor-pointer p-[5px] text-amber-50 text-[35px] border border-y-zinc-400 rounded-sm  hover:text-[#34AB45]' />
+                    </a>
+                </div>
             </div>
+            {/* Social Media Links End */}            
 
         </section>
     );

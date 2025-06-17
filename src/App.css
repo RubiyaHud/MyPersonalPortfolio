@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+
 @plugin "daisyui";
 
 @theme {
-    --color-bgC: #101010; 
-    --color-FontC: #e6e6e6; 
-    --font-poppins:  "Poppins", "sans-serif";
-    
-  }
+  --color-bgC: #101010;
+  --color-FontC: #e6e6e6;
+  --font-poppins: "Poppins", "sans-serif";
+
+}
+

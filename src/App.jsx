@@ -1,9 +1,9 @@
 
 import './App.css'
 import Hero from './components/layouts/Hero'
-import Hero2 from './components/layouts/Hero2'
-import Home from './components/layouts/Home'
-import Navbar from './components/Navbar'
+import Portfolio from './components/layouts/Portfolio'
+import Portfolio2 from './components/layouts/Portfolio2'
+
 
 function App() {
 
@@ -12,9 +12,9 @@ function App() {
     <>
       {/* <Navbar /> */}
       <Hero />
-      
+      <Portfolio2 />
 
-      {/* <Home /> */}
+
     </>
   )
 }
