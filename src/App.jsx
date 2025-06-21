@@ -1,9 +1,11 @@
 
 import './App.css'
 import Hero from './components/layouts/Hero'
+import Blog from './components/layouts/Blog'
 import Portfolio from './components/layouts/Portfolio'
-import Portfolio2 from './components/layouts/Portfolio2'
-
+import Navbar1 from './components/Navbar1'
+import Navbar from './components/Navbar'
+import Navbar2 from './components/Navbar2'
 
 function App() {
 
@@ -11,8 +13,10 @@ function App() {
   return (
     <>
       {/* <Navbar /> */}
-      <Hero />
-      <Portfolio2 />
+     {/* <Navbar2/> */}
+      <Hero />      
+      <Portfolio />
+      <Blog />
 
 
     </>

@@ -1,12 +1,125 @@
 @import "tailwindcss";
-
-
 @plugin "daisyui";
 
 @theme {
   --color-bgC: #101010;
   --color-FontC: #e6e6e6;
   --font-poppins: "Poppins", "sans-serif";
+  --font-inter: "Inter", "sans-serif"; 
 
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes grow {
+    from {
+      width: 0%;
+    }
+
+    to {
+      width: 100%;
+    }
+  }
+}
+
+/*---------------- Animated divider line Start ----------------------------*/
+@layer utilities {
+  @keyframes move-bg-ltr {
+    0% {
+      background-position: 200% 0%;
+    }
+    100% {
+      background-position: 0% 0%;
+    }
+  }
+}
+/* Animated divider line option-2 */
+/* @layer utilities {
+  @keyframes move-bg {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 200% 0%;
+    }
+  }
+} */
+
+/* Animated divider line option-3 */
+/* @layer utilities {
+  @keyframes dashmove {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 20px 0;
+    }
+  }
+} */
+/*---------------- Animated divider line End ------------------------------*/
+
+/*---------------- Hero page (my image) image animation Start -------------*/
+@keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.8);
+    /* bright blue */
+  }
+
+  40% {
+    box-shadow: 0 0 0 20px rgba(59, 130, 246, 0.4);
+    /* vibrant halo */
+  }
+
+  70% {
+    box-shadow: 0 0 0 40px rgba(59, 130, 246, 0.1);
+    /* wider spread */
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+    /* fade out */
+  }
+}
+
+.animate-ring-pulse {
+  animation: pulse-ring 2.5s ease-out infinite;
+}
+
+/* <<<<<<< Hero page (my image) image animation option - 2 >>>>>> */
+/* @keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0);
+  }
+}
+
+.animate-ring-pulse {
+  animation: pulse-ring 2s infinite;
+} */
+
+/* >>>>>>> Hero page (my image) image animation option - 3 <<<<<< */
+/* @keyframes pulse-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.6); 
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(59, 130, 246, 0); 
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); 
+  }
+}
+
+.animate-ring-pulse {
+  animation: pulse-ring 2s ease-out infinite;
+} */
+
+/*---------------- Hero page (my image) image animation End -------------*/
