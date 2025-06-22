@@ -6,15 +6,15 @@
 - Organize the files and folders:
     - Create `components` folder inside `src` folder and  create `layouts` folder inside it. `components` contains all small parts/components, layouts and pages, whereas `layouts` contains sections of the webpage.
 - Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin
-- Install [React Icons](https://react-icons.github.io/react-icons/), Open terminal ` ctrl + ` `tilda or back tick ` in VS Code and type the code below:
+- Install [React Icons](https://react-icons.github.io/react-icons/), Run the following command in your project directory:
   
-       ``` bash
+    
        npm install react-icons --save
-       ```
+       
   
-      Select icon and import the icon component where needed, for example:
+ Select icon and import the icon component where needed, for example:
   
-       ``` jsx
+      
        import { FaBeer } from 'react-icons/fa';
     
        class Question extends React.Component {
@@ -22,7 +22,7 @@
               return <h3> Lets go for a <FaBeer />? </h3>
          }
        }
-       ```
+     
 - Install [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project
 - Install  [Install Framer Motion](https://examples.motion.dev/react/keyframes-wildcards/tutorial), Run the following command in your project directory:
   ```
