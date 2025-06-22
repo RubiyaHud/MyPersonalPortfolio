@@ -7,7 +7,50 @@
     - Create `components` folder inside `src` folder and  create `layouts` folder inside it. `components` contains all small parts/components, layouts and pages, whereas `layouts` contains sections of the webpage.
 - Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin
 - Install [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project
+- Install  [Install Framer Motion](https://examples.motion.dev/react/keyframes-wildcards/tutorial), Run the following command in your project directory:
+  ```
+      npm install framer-motion
+  ```
 
+  ```jsx
+  import * as motion from "motion/react-client"
+
+export default function WildcardKeyframes() {
+    return (
+        <motion.div
+            style={box}
+            /**
+             * Setting the initial keyframe to "null" will use
+             * the current value to allow for interruptable keyframes.
+             */
+            whileHover={{
+                scale: [null, 1.1, 1.6],
+                transition: {
+                    duration: 0.5,
+                    times: [0, 0.6, 1],
+                    ease: ["easeInOut", "easeOut"],
+                },
+            }}
+            transition={{
+                duration: 0.3,
+                ease: "easeOut",
+            }}
+        />
+    )
+}
+
+/**
+ * ==============   Styles   ================
+ */
+
+const box = {
+    width: 100,
+    height: 100,
+    backgroundColor: "#0cdcf7",
+    borderRadius: 5,
+}
+
+  ```
 ### Responsive Navbar by daisyUI
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
@@ -65,3 +108,11 @@
     }
 
   ```
+
+### Notes:
+![image](https://github.com/user-attachments/assets/c290f5d6-1246-4b7f-8f05-4c137c9ea58d)
+
+
+
+
+
