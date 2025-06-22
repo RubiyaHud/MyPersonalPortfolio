@@ -91,6 +91,10 @@
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
 
 ### ✅ Add a customized favicon to the React project
+   1. Prepare Your Favicon
+      - Use a .ico, .png, or .svg file.
+      - Recommended size: `32x32` or `64x64`.
+   2. Add the Favicon File
 - Convert the image into favicon by resizing it. Online converter link : [favicon generator](https://favicon.io/favicon-converter/)
 
 ### ✅ Add [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project, follow these steps:
