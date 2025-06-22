@@ -176,6 +176,15 @@ const ShufflingGrid = () => {
 export default ShufflingGrid;
 
 ```
+#### 📦 Required Dependencies
+You'll need framer-motion:
+```bash
+npm install framer-motion
+```
+#### 💡 Notes
+- The `layout` prop on `motion.div` enables layout animations when the items change position.
+- The shuffling happens every `3s` via `setInterval`.
+- Tailwind's `grid` classes handle layout, and you can adjust `grid-cols-3`, `gap-4`, etc., as needed.
 ### Notes:
 ![image](https://github.com/user-attachments/assets/c290f5d6-1246-4b7f-8f05-4c137c9ea58d)
 
