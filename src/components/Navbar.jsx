@@ -1,11 +1,12 @@
 // import Image from '../Image';
-import logoImg from "../assets/logo.png";
+import logoImg from "../assets/logo1.png";
 import Image from "./Image";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
     return (
         <>
-            <div className="navbar bg-bgC">
+            <div className="navbar bg-black">
                 {/* Navbar Start: Logo */}
                 <div className="navbar-start lg:pl-[50px]">
                     <Image imgSrc={logoImg} imgAlt={logoImg} />
@@ -19,13 +20,21 @@ const Navbar = () => {
 
                     {/* Desktop Menu */}
                     <ul className="hidden lg:flex menu menu-horizontal px-1 font-poppins text-FontC text-[18px] font-normal leading-7">
-                        <li><a> About </a></li>
+                        {/* <li><a> About </a></li>
                         <li><a> Resume </a></li>
                         <li><a> Portfolio </a></li>
                         <li><a> Skills </a></li>
                         <li><a> Services </a></li>
                         <li><a> Blog </a></li>
-                        <li><a> Contact </a></li>
+                        <li><a> Contact </a></li> */}
+                        <li><Link to="" smooth={true} duration={500}> About </Link></li>
+                        <li><Link to="" smooth={true} duration={500}> Resume </Link></li>
+                        <li><Link to="portfolio" smooth={true} duration={500}> Portfolio </Link></li>
+                        <li><Link to="skills" smooth={true} duration={500}> Skills </Link></li>
+                        <li><Link to="services" smooth={true} duration={500}> Services </Link></li>
+                        <li><Link to="blog" smooth={true} duration={500}> Blog </Link></li>
+                        <li><Link to="" smooth={true} duration={500}> Contact </Link></li>
+
                     </ul>
 
                     {/* Mobile Menu Dropdown */}
@@ -49,6 +58,10 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
+
+                    
+                  
+
                 </div>
             </div>
 

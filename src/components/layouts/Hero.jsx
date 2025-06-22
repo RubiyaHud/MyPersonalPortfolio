@@ -36,7 +36,7 @@ const Hero = () => {
     }, []);
 
     return (
-        <section className="min-h-screen mx-auto bg-bgC  text-center ">
+        <section className="min-h-screen mx-auto bg-black  text-center " id="home">
             {/* Navbar part Start */}
              <Navbar/>           
             {/* Navbar part End */}

@@ -20,7 +20,7 @@ import DividerLine from '../DividerLine';
 
 const Portfolio2 = () => {
     return (
-        <div class="py-[105px] px-7 ">
+        <div class="py-[105px] px-7 bg-[#111827]" id="portfolio">
             <Container>
                 <HeadingWithPara className={"mb-[80px]"}  classH={"text-indigo-500"} classP={""} hText={"Portfolio"} pText={"Showcasing some of my best work"} />
               
@@ -36,29 +36,29 @@ const Portfolio2 = () => {
                     {/* Project Description */}
                     <div class="mt-10 lg:w-[40%] md:w-[40%]">
                         {/* Project Name */}
-                        <h2 class="text-amber-300 text-[20px] font-bold font-poppins mb-2">Project Name : <span className='pl-2 text-white text-[20px] font-medium font-poppins'>Creative Digital Agency</span> </h2>
+                        <h2 class="text-indigo-400 text-[20px] font-bold font-poppins mb-2">Project Name : <span className='pl-2 text-white text-[20px] font-medium font-poppins'>Creative Digital Agency</span> </h2>
 
                         {/* Tech Stack Logos start*/}
                         <Flex className={"items-center"}>
-                            <h2 class="text-amber-300 text-[20px] font-bold ">Tech Stack :</h2>
+                            <h2 class="text-[#615FFF] text-[20px] font-bold pr-1 ">Tech Stack :</h2>
                             <div
-                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex justify-start text-2xl items-center shadow-xl z-10  dark:bg-[#191818] gap-1 p-2"
+                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex text-2xl shadow-xl z-10  dark:bg-[#191818] "
                             >
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['React'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['React'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaReact className='text-[#00D8FF] text-4xl' />
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['TailwindCSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['TailwindCSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <RiTailwindCssFill className='text-[#06B6D4] text-4xl' />
 
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <IoLogoJavascript className='text-[#F7DF1D] text-4xl' />
@@ -111,36 +111,36 @@ const Portfolio2 = () => {
                     {/* Project Description */}
                     <div class="mt-10 lg:w-[40%] md:w-[40%]">
                         {/* Project Name */}
-                        <h2 class="text-amber-300 text-[20px] font-bold font-poppins mb-2">Project Name : <span className='pl-2 text-white text-[20px] font-medium font-poppins'>Comforty - eCommerce</span> </h2>
+                        <h2 class="text-indigo-400 text-[20px] font-bold font-poppins mb-2">Project Name : <span className='pl-2 text-white text-[20px] font-medium font-poppins'>Comforty - eCommerce</span> </h2>
 
                         {/* Tech Stack Logos start*/}
                         <Flex className={"items-center"}>
-                            <h2 class="text-amber-300 text-[20px] font-bold ">Tech Stack :</h2>
+                            <h2 class="text-[#615FFF] text-[20px] font-bold ">Tech Stack :</h2>
                             <div
-                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex justify-start text-2xl items-center shadow-xl z-10  dark:bg-[#191818] gap-1 p-2"
+                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex justify-start text-2xl items-center shadow-xl z-10  dark:bg-[#191818] "
                             >
 
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Html'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Html'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaHtml5 className='text-[#E54C21] text-4xl' />
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['CSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['CSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaCss3Alt className='text-[#006CB4] text-4xl' />
 
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <IoLogoJavascript className='text-[#F7DF1D] text-4xl' />
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Bootstrap'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Bootstrap'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaBootstrap className='text-[#8913FD] text-4xl' />
@@ -200,30 +200,30 @@ const Portfolio2 = () => {
                         <Flex className={"items-center"}>
                             <h2 class="text-[#615FFF] text-[20px] font-bold ">Tech Stack :</h2>
                             <div
-                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex justify-start text-2xl items-center shadow-xl z-10  dark:bg-[#191818] gap-1 p-2"
+                                class="hover:scale-x-105 transition-all duration-300 *:transition-all *:duration-300 flex justify-start text-2xl items-center shadow-xl z-10  dark:bg-[#191818] "
                             >
 
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Html'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Html'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaHtml5 className='text-[#E54C21] text-4xl' />
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['CSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['CSS'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaCss3Alt className='text-[#006CB4] text-4xl' />
 
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['JavaScript'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <IoLogoJavascript className='text-[#F7DF1D] text-4xl' />
                                 </button>
                                 <button
-                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Bootstrap'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-2 px-3"
+                                    class="before:hidden hover:before:flex before:justify-center before:items-center before:h-4 before:text-[.9rem] before:px-1 before:content-['Bootstrap'] before:bg-[#C27AFF] dark:before:bg-white dark:before:text-black before:text-white before:bg-opacity-50 before:absolute before:-top-7 before:rounded-lg hover:-translate-y-5 cursor-pointer hover:scale-125  dark:bg-[#191818] rounded-full p-1"
                                 >
 
                                     <FaBootstrap className='text-[#8913FD] text-4xl' />
