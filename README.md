@@ -22,11 +22,29 @@
               return <h3> Lets go for a <FaBeer />? </h3>
          }
        }
-     
+
+- 🔧 Required Icons (from lucide-react)
+      Install and import:
+      ```bash
+          npm install lucide-react
+      ```
+  
 - Install [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project
 - Install  [Install Framer Motion](https://examples.motion.dev/react/keyframes-wildcards/tutorial), Run the following command in your project directory:
   ```
       npm install framer-motion
+  ```
+
+  ```js
+              import {
+          Code2,
+          MonitorSmartphone,
+          LayoutGrid,
+          Palette,
+          Smartphone,
+          BookText
+        } from 'lucide-react';
+
   ```
   [WildcardKeyframes Source Code Link](https://motion.dev/docs/react-animation)
   ```jsx
