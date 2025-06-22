@@ -7,11 +7,14 @@
     - Create `components` folder inside `src` folder and  create `layouts` folder inside it. `components` contains all small parts/components, layouts and pages, whereas `layouts` contains sections of the webpage.
 - Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin
 - Install [React Icons](https://react-icons.github.io/react-icons/), Open terminal ` ctrl + ` `tilda or back tick ` in VS Code and type the code below:
-       ```
+  
+       ``` bash
        npm install react-icons --save
        ```
-     Select icon and import the icon component where needed, for example:
-       ```
+  
+      Select icon and import the icon component where needed, for example:
+  
+       ``` jsx
        import { FaBeer } from 'react-icons/fa';
     
        class Question extends React.Component {
