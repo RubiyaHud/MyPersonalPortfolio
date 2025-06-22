@@ -94,9 +94,20 @@
    1. Prepare Your Favicon
       - Use a .ico, .png, or .svg file.
       - Recommended size: `32x32` or `64x64`.
+      - Convert the image into favicon by resizing it. Online converter link : [favicon generator](https://favicon.io/favicon-converter/)
    2. Add the Favicon File
-- Convert the image into favicon by resizing it. Online converter link : [favicon generator](https://favicon.io/favicon-converter/)
+       Place your custom favicon in the public folder of your React project:
+       ```arduino
+                   your-project/
+        ├── public/
+        │   ├── favicon.ico       <-- put your custom favicon here
+        │   └── ...
+        ├── src/
+        │   └── ...
 
+       ```
+        You can rename it to favicon.ico or keep a custom name like my-icon.png.
+  
 ### ✅ Add [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project, follow these steps:
 - Run this in your project directory:
   ```
