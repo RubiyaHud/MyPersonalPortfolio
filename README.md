@@ -109,13 +109,17 @@
         You can rename it to favicon.ico or keep a custom name like my-icon.png.
 
 3. Update the <head> in public/index.html    
-          Open `public/index.html` and update (or add) the favicon link.
-   
+          Open `public/index.html` and update (or add) the favicon link.   
           If you're using `.ico`:
-          
+   ```html          
                <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-          If you're using `.png` or `.svg`:
+   ```
+   
+  If you're using `.png` or `.svg`:
+
+   ```html
                 <link rel="icon" type="image/png" href="%PUBLIC_URL%/my-icon.png" />
+   ```
   
 ### ✅ Add [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project, follow these steps:
 - Run this in your project directory:
