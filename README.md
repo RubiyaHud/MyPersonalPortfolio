@@ -92,7 +92,7 @@
 
 ### ✅ Add a customized favicon to the React project
    1. Prepare Your Favicon
-      - Use a .ico, .png, or .svg file.
+      - Use a `.ico`, `.png`, or `.svg` file.
       - Recommended size: `32x32` or `64x64`.
       - Convert the image into favicon by resizing it. Online converter link : [favicon generator](https://favicon.io/favicon-converter/)
    2. Add the Favicon File
@@ -107,6 +107,15 @@
 
        ```
         You can rename it to favicon.ico or keep a custom name like my-icon.png.
+
+3. Update the <head> in public/index.html    
+          Open `public/index.html` and update (or add) the favicon link.
+   
+          If you're using `.ico`:
+          
+               <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+          If you're using `.png` or `.svg`:
+                <link rel="icon" type="image/png" href="%PUBLIC_URL%/my-icon.png" />
   
 ### ✅ Add [Typed.js](https://github.com/mattboldt/typed.js/?tab=readme-ov-file#options) to the React project, follow these steps:
 - Run this in your project directory:
