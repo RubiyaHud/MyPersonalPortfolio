@@ -20,7 +20,7 @@ import DividerLine from '../DividerLine';
 
 const Portfolio2 = () => {
     return (
-        <div class="py-[105px] px-7 bg-[#111827]" id="portfolio">
+        <div class="py-[105px] px-7 bg-black" id="portfolio">
             <Container>
                 <HeadingWithPara className={"mb-[80px]"}  classH={"text-indigo-500"} classP={""} hText={"Portfolio"} pText={"Showcasing some of my best work"} />
               

@@ -1,13 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import Typed from "typed.js";
 import { FaLinkedinIn, FaGithub, FaDev, FaCodepen, FaMedium } from "react-icons/fa";
-
 import Image from "../Image";
-import logoImg from "../../assets/logo.png";
 import RubiyaHud from "../../assets/RubiyaYasmin.png";
 import Navbar1 from "../Navbar1";
-import Navbar2 from "../Navbar2";
 import Navbar from "../Navbar";
+import Navbar2 from "../Navbar2";
 
 const Hero = () => {
     const el = useRef(null);
@@ -38,7 +36,8 @@ const Hero = () => {
     return (
         <section className="min-h-screen mx-auto bg-black  text-center " id="home">
             {/* Navbar part Start */}
-             <Navbar/>           
+             {/* <Navbar/>            */}
+             <Navbar1/>           
             {/* Navbar part End */}
 
             {/* Body Text Start */}

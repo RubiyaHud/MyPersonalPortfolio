@@ -11,7 +11,7 @@ import BlogCard from '../BlogCard';
 
 const Portfolio = () => {
     return (
-        <div className="py-[105px] px-7 bg-black" id="blog">
+        <div className="py-[105px] px-7 bg-[#111827]" id="blog">
             <Container>
                 <HeadingWithPara className={"mb-[80px]"} classD={"float-right"} classH={"text-indigo-500 text-right"} classP={"text-right pt-3"} hText={"My Blog"} pText={"Check out my latest blog posts"} />
 

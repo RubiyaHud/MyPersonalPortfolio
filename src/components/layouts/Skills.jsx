@@ -19,7 +19,7 @@ import WildcardKeyframes from '../WildcardKeyframes'
 const Skills = () => {
     return (
         <>
-            <div className="py-[105px] px-7 bg-black" id="skills">
+            <div className="py-[105px] px-7 bg-[#111827]" id="skills">
                 <Container>
                     <HeadingWithPara className={"mb-[80px]"} classD={"float-right"} classH={"text-indigo-500 text-right"} classP={"text-right pt-3"} hText={"My Skills"} pText={"Modern Technologies I've Gained Skills In"} />
 

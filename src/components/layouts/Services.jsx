@@ -102,7 +102,7 @@ export default function Services() {
     return (
         <>
 
-            <div className="py-[105px] px-7 bg-[#111827]" id="services">
+            <div className="py-[105px] px-7 bg-black" id="services">
                 <Container>
                         <HeadingWithPara className={"mb-[80px]"} classD={""} classH={"text-indigo-500 "} classP={" pt-3"} hText={"My Services"} pText={"My Expertise in Action"} />
 
