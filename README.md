@@ -112,6 +112,11 @@
     }
     backToTop.init(option);
   ```
+- ✅ Optional: Use a `Font Awesome icon` as an image URL. If we want to use a static version of a Font Awesome icon, we can:
+      1. Go to Font Awesome icons
+      2. Click on the desired icon
+      3. Right-click the SVG and copy the image address or download the SVG
+      4. Use it as the image URL
 ### ✅ Add a customized favicon to the React project
    1. Prepare Your Favicon
       - Use a `.ico`, `.png`, or `.svg` file.
