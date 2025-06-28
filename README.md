@@ -91,10 +91,26 @@
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
 
 ### Reactjs-back-to-top Button
-- Install `npm` package for `reactjs-back-to-top`
+- Install `npm` package for [reactjs-back-to-top](https://www.npmjs.com/package/reactjs-back-to-top?activeTab=readme)
 
   ```bash
   npm i reactjs-back-to-top
+  ```
+- Copy-Paste the code below inside `App.jsx`:
+  
+  ```jsx
+      import backToTop from 'reactjs-back-to-top';
+    
+    # pass arguments
+    let option = {
+        text: 'Back to top',   
+        background: '#f90404', 
+        fontColor: '#000',     
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Top_Arrow.svg/1200px-Top_Arrow.svg.png',              
+        displayAfterScroll:30, //percentage
+        className:''           // custom class
+    }
+    backToTop.init(option);
   ```
 ### ✅ Add a customized favicon to the React project
    1. Prepare Your Favicon
