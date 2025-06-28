@@ -90,6 +90,12 @@
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
 
+### Reactjs-back-to-top Button
+- Install `npm` package for `reactjs-back-to-top`
+
+  ```bash
+  npm i reactjs-back-to-top
+  ```
 ### ✅ Add a customized favicon to the React project
    1. Prepare Your Favicon
       - Use a `.ico`, `.png`, or `.svg` file.
