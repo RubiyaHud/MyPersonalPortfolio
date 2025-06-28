@@ -90,7 +90,7 @@
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
 
-### Reactjs-back-to-top Button
+### ✅ Reactjs-back-to-top Button
 - Install `npm` package for [reactjs-back-to-top](https://www.npmjs.com/package/reactjs-back-to-top?activeTab=readme)
 
   ```bash
@@ -112,7 +112,7 @@
     }
     backToTop.init(option);
   ```
-- ✅ Optional: Use a `Font Awesome icon` as an image URL. If we want to use a static version of a Font Awesome icon, we can:
+-  **Optional:** Use a `Font Awesome icon` as an image URL. If we want to use a static version of a Font Awesome icon, we can:
   1. Go to [Font Awesome icons](https://fontawesome.com/icons) 
   2. Click on the desired icon
   3. Right-click the SVG and copy the image address or `download` the SVG
