@@ -16,11 +16,11 @@ function App() {
   // ------------- Back to Top button Start -------------- 
   // # pass arguments
   let option = {
-    text: '',
+    // text: '',
     background: '#6366F1',
     fontColor: '#000',
     // image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Top_Arrow.svg/1200px-Top_Arrow.svg.png',
-    image: '../src/assets/arrow-up-solid.svg',
+    image: 'https://github.com/RubiyaHud/MyPersonalPortfolio/blob/main/src/assets/arrow-up-solid.svg',
     displayAfterScroll: 2, //percentage
     className: ''           // custom class
   }
