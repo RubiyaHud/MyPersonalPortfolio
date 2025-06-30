@@ -7,7 +7,7 @@ import Image from './Image';
 const BlogCard = ({BlogLink, BlogImage, BlogTitle, BlogDes, pClassName }) => {
     return (
         <>
-            <div class="mb-9 block rounded-lg p-4 shadow-[1px_3px_15px_rgba(0,0,0,0.08)] shadow-indigo-100">
+            <div class="mb-9 block rounded-lg p-4 shadow-[0px_1px_4px_rgba(0,0,0,0.08)] shadow-indigo-100 hover:shadow-[0_0_11px_rgba(0,0,0,0.08)] ">
                 {/* Blog-Post Image */}
                 <Image className={"h-56 w-full rounded-md "} imgSrc={BlogImage} imgAlt={"BlogImage"} />
 

@@ -20,7 +20,7 @@ export default function WildcardKeyframes({ children }) {
              */
 
             whileHover={{
-                scale: [null, 1.1, 1.2],
+                scale: [null, 1.1, 1.1],
                 transition: {
                     duration: 0.5,
                     times: [0, 0.6, 1],
