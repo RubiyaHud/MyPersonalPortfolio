@@ -11,21 +11,10 @@ import ShufflingGrid from './components/ShufflingGrid'
 import backToTop from 'reactjs-back-to-top';
 import { FaArrowAltCircleUp } from "react-icons/fa";
 import Contact from './components/layouts/Contact'
+import BackToTop from './components/BackToTop'
 
 function App() {
-  // ------------- Back to Top button Start -------------- 
-  // # pass arguments
-  let option = {
-    // text: '',
-    background: '#6366F1',
-    fontColor: '#000',
-    // image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Top_Arrow.svg/1200px-Top_Arrow.svg.png',
-    image: '../src/assets/arrow-up-solid.svg',
-    displayAfterScroll: 2, //percentage
-    className: ''           // custom class
-  }
-  backToTop.init(option);
-  // ------------- Back to Top button End --------------
+ 
 
   return (
     <>
@@ -36,6 +25,7 @@ function App() {
       <Services id="services" />
       <Blog id="blog" />
       <Contact id="contact" />
+       <BackToTop />
       {/* <HoverEffect/> */}
       {/* <ShufflingGrid/>      */}
       {/* Card lifting animation */}
