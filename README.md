@@ -86,6 +86,29 @@
             }
 
   ```
+### ✅ Card lifting animation
+
+```jsx
+    <div class="max-w-sm mx-auto">
+        <div class="bg-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:-translate-y-2 hover:shadow-xl">
+          <h2 class="text-xl font-semibold mb-2">Card Title</h2>
+          <p class="text-gray-600">This is a simple card with a smooth hover effect that lifts it slightly.</p>
+        </div>
+      </div>
+
+```
+
+```jsx
+    <div class="max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl mx-auto px-4">
+        <div class="bg-white rounded-2xl shadow-lg p-6 transform transition duration-300 hover:-translate-y-10 hover:shadow-xl">
+          <h2 class="text-xl sm:text-2xl font-semibold mb-2">Responsive Card</h2>
+          <p class="text-gray-600 text-sm sm:text-base">
+            This card adjusts padding, width, and text size based on screen size. It also lifts up on hover for a nice interactive feel.
+          </p>
+        </div>
+      </div>
+
+```
 ### ✅ Responsive Navbar by daisyUI
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
