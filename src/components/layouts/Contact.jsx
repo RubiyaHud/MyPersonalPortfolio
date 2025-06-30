@@ -11,7 +11,9 @@ const Contact = () => {
                 <Container>
                     <HeadingWithPara className={"mb-[80px]"} classD={""} classH={"text-indigo-500 "} classP={" pt-3"} hText={"Get in Touch"} pText={"Feel free to contact me anytimes"} />
 
-                    <ContactMeForm/>
+                    <ContactMeForm />
+                    
+
                 </Container>
             </div>
 
