@@ -90,6 +90,33 @@
 - Create a file `Navbar.jsx`inside `components`, then type `rafce` and `press enter`.
 - Copy-paste the JSX code from [daisyUI Navbar](https://daisyui.com/components/navbar/#responsive-dropdown-menu-on-small-screen-center-menu-on-large-screen)
 
+### ✅ Reactjs-back-to-top Button
+- Install `npm` package for [reactjs-back-to-top](https://www.npmjs.com/package/reactjs-back-to-top?activeTab=readme)
+
+  ```bash
+  npm i reactjs-back-to-top
+  ```
+- Copy-Paste the code below inside `App.jsx`:
+  
+  ```jsx
+      import backToTop from 'reactjs-back-to-top';
+    
+    # pass arguments
+    let option = {
+        text: 'Back to top',   
+        background: '#f90404', 
+        fontColor: '#000',     
+        image:'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Top_Arrow.svg/1200px-Top_Arrow.svg.png',              
+        displayAfterScroll:30, //percentage
+        className:''           // custom class
+    }
+    backToTop.init(option);
+  ```
+-  **Optional:** Use a `Font Awesome icon` as an image URL. If we want to use a static version of a Font Awesome icon, we can:
+  1. Go to [Font Awesome icons](https://fontawesome.com/icons) 
+  2. Click on the desired icon
+  3. Right-click the SVG and copy the image address or `download` the SVG
+  4. Use it as the `image` URL
 ### ✅ Add a customized favicon to the React project
    1. Prepare Your Favicon
       - Use a `.ico`, `.png`, or `.svg` file.
