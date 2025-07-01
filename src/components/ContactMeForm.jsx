@@ -129,7 +129,7 @@ const ContactMeForm = () => {
                             <ul class="flex mt-4 space-x-4">
 
                                 {/* <!-- LinkedIn --> */}
-                                <li class="bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
+                                <li class="cursor-pointer bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
                                     <a 
                                         href="https://www.linkedin.com/in/rubiyahud/" 
                                         target="_blank" 
@@ -140,7 +140,7 @@ const ContactMeForm = () => {
                                 </li>
 
                                 {/* <!-- Github --> */}
-                                <li class="bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 
+                                <li class="cursor-pointer bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 
              transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
                                     <a 
                                         href="https://github.com/RubiyaHud" 
@@ -153,7 +153,7 @@ const ContactMeForm = () => {
 
 
                                 {/* <!-- Codepen --> */}
-                                <li className="bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
+                                <li className="cursor-pointer bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
                                     <a
                                         href="https://codepen.io/RubiyaHud"
                                         target="_blank"
@@ -164,7 +164,7 @@ const ContactMeForm = () => {
                                 </li>
 
                                 {/* <!-- DEv.to --> */}
-                                <li className="bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
+                                <li className="cursor-pointer bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
                                     <a 
                                         href="https://dev.to/rubiyahud" 
                                         target="_blank" 
@@ -176,7 +176,7 @@ const ContactMeForm = () => {
                                 </li>
 
                                 {/* <!-- Medium --> */}
-                                <li className="bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
+                                <li className="cursor-pointer bg-black border border-[#f0f0f0] h-10 w-10 rounded-full flex items-center justify-center shrink-0 transition duration-300 hover:bg-[#1877F2] hover:ring-4 hover:ring-blue-400 hover:ring-offset-2 hover:ring-offset-gray-900">
                                     <a
                                         href="https://medium.com/@rubiyahud"
                                         target="_blank"
