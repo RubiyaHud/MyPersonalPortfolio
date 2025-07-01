@@ -45,26 +45,26 @@ const Navbar1 = () => {
         >
           {/* <ul className="cursor-pointer font-medium flex flex-col p-4 md:p-0 mt-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse"> */}
           <ul className="p-4 mt-0 mr-10 lg:flex items-center md:flex lg:gap-x-5">
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
               {/* <a href="#" className="block py-2 px-3 font-poppins text-FontC text-[18px] font-normal leading-7 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a> */}
               <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
             {/* <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="resume" smooth={true} duration={500}> Resume </Link>
             </li> */}
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="skills" smooth={true} duration={500}> Skills </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="services" smooth={true} duration={500}> Services </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="blog" smooth={true} duration={500}> Blog </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
 
