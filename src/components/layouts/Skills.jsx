@@ -27,7 +27,7 @@ const Skills = () => {
                     </div> */}
 
                     {/* <Flex className={"flex-wrap justify-evenly gap-x-4 gap-y-6"}> */}
-                    <div className={"flex flex-wrap gap-6 lg:flex md:flex lg:flex-wrap md:flex-wrap lg:justify-center md:justify-center lg:gap-6 md:gap-6"}>
+                    <div className={"flex flex-wrap justify-center gap-6 lg:flex md:flex lg:flex-wrap md:flex-wrap"}>
                         <WildcardKeyframes children={<SkillCard SkillLogo={reactLogo} SkillName={"React"} SkillDes={"JavaScript library for building user interfaces"} />} />
                         <WildcardKeyframes children={<SkillCard SkillLogo={figmaLogo} SkillName={"Figma"} SkillDes={"A collaborative design tool for UI/UX and prototyping"} />} />
                         <WildcardKeyframes children={<SkillCard SkillLogo={reduxLogo} SkillName={"Redux"} SkillDes={"State management tool for predictable app data"} />} />

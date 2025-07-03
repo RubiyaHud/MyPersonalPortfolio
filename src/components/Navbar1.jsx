@@ -17,7 +17,7 @@ const Navbar1 = () => {
         </a> */}
 
         {/* Navbar Start: Logo */}
-        <div className="navbar-start lg:pl-[50px]">
+        <div className=" lg:pl-[50px] ">
           <Image imgSrc={logoImg} imgAlt={logoImg} />
         </div>
 
@@ -34,8 +34,8 @@ const Navbar1 = () => {
             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M1 1h15M1 7h15M1 13h15" />
           </svg>
         </button>
-        
-        {/* Mobile dropdown menu */}        
+
+        {/* Mobile dropdown menu */}
         <div
           className={`
             ${isMenuOpen ? 'block' : 'hidden'}
@@ -44,38 +44,34 @@ const Navbar1 = () => {
           id="navbar-default"
         >
           {/* <ul className="cursor-pointer font-medium flex flex-col p-4 md:p-0 mt-0 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse"> */}
-          <ul className="p-4 mt-0 mr-10 lg:flex items-center md:flex lg:gap-x-5">
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
-              {/* <a href="#" className="block py-2 px-3 font-poppins text-FontC text-[18px] font-normal leading-7 bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 " aria-current="page">Home</a> */}
+          <ul className="p-4 mt-0 mr-10 lg:flex md:flex lg:items-center md:items-center lg:gap-x-5 md:gap-x-5 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0">
               <Link to="about" smooth={true} duration={500}> About </Link>
             </li>
-            {/* <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
-              <Link to="resume" smooth={true} duration={500}> Resume </Link>
-            </li> */}
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="portfolio" smooth={true} duration={500}> Portfolio </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="skills" smooth={true} duration={500}> Skills </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="services" smooth={true} duration={500}> Services </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="blog" smooth={true} duration={500}> Blog </Link>
             </li>
-            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[18px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
+            <li className="cursor-pointer block py-2 px-3 font-poppins text-black lg:text-FontC md:text-FontC text-[16px] lg:text-[16px] md:text-[14px] font-normal leading-7 rounded hover:bg-gray-100 hover:text-indigo-700 hover:font-bold md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">
               <Link to="contact" smooth={true} duration={500}> Contact </Link>
             </li>
 
             {/* Button "Download cv" start  */}
             {/* <!-- From Uiverse.io by carlosepcc --> */}
-            <button class="cursor-pointer transition-all bg-blue-500 text-white text-[14px] leading-[21px] font-poppins font-normal px-6 py-2 rounded-lg border-blue-600 border-b-[4px] 
+            <button class="cursor-pointer px-6 py-2 lg:px-10 lg:py-2 transition-all bg-blue-500 text-white text-[16px] lg:text-[14px] md:text-[14px] font-poppins font-normal  rounded-lg border-blue-600 border-b-[4px] 
                             hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
               Download My CV
             </button>
             {/* Button "Download cv" end  */}
-            
+
           </ul>
         </div>
       </div>

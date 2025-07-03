@@ -12,24 +12,34 @@ const About = () => {
             <div class="py-[105px] px-7 bg-[#111827]" id="about">
                 <Container>
                     <HeadingWithPara className={"mb-[80px]"} classD={"m-auto"} classH={"text-indigo-500 text-center"} classP={"text-center"} hText={"About Me"} pText={"Get to know me"} />
-                    <div className={"lg:flex lg:gap-20 md:flex md:gap-20"}>
-                        {/* My Image start */}
-                        <div className='hidden lg:block md:block lg:w-[420px] md:w-[420px]'>
+                    <div className={"lg:flex lg:gap-20"}>
+                        {/*------- My Image start --------*/}
+                        {/* Image for lg and md */}
+                        {/* <div className='hidden lg:block md:block lg:w-[420px] md:w-[420px]'>
                             <Image className={"rounded-2xl"} imgSrc={RubiyaHud2} imgAlt={RubiyaHud2} />
-                        </div>
-                        <div className='lg:hidden md:hidden flex justify-center items-center'>
+                        </div> */}
+                        {/* Image for sm */}
+                        {/* <div className=' lg:hidden md:hidden m-auto'>
                             <Image className={"rounded-2xl"} imgSrc={RubiyaHud3} imgAlt={RubiyaHud3} />
+                        </div> */}
+                        <div className=' lg:w-[35%]'>
+                            {/* Image for lg and md */}
+                            <Image className={"rounded-2xl hidden lg:block"} imgSrc={RubiyaHud2} imgAlt={RubiyaHud2} />
+                            <Image className={"m-auto mb-2 block lg:hidden"} imgSrc={RubiyaHud3} imgAlt={RubiyaHud3} />
+
+
                         </div>
-                        {/* My Image end */}
+                        {/*------ My Image end -----------*/}
 
                         {/* About Me text start */}
-                        <div className={"px-[5px] lg:w-[680px] md:w-[680px]"}>
-                            <h3 className='pt-[42px] text-indigo-500 font-poppins font-medium text-2xl leading-7'>Who am i?</h3>
-                            <h2 className='pt-[42px] pr-[10px] text-[#F0F0F0] font-poppins font-bold text-[31px] leading-[49.6px]'>I'm Rubiya Yasmin, a frontend web developer with a PhD in Computer Science</h2>
-                            <p className='pt-[42px] pr-[85px] text-[#9F9F9F] font-poppins font-normal text-[15px] leading-[29.3px]'>I'm a frontend web developer focused on creating clean, responsive, and user-friendly websites. I use React and Tailwind CSS to build modern interfaces. Passionate about learning and growth, I turn ideas into functional experiences with attention to detail and a drive for best practices.</p>
+                        {/* <div className={"px-[5px] m-auto text-center lg:text-left md:text-left lg:w-[680px] md:w-[680px]"}> */}
+                        <div className={"px-[5px]  text-center lg:text-left  lg:w-[50%] "}>
+                            <h3 className='pt-[20px] text-indigo-500 font-poppins font-medium text-2xl leading-7'>Who am i?</h3>
+                            <h2 className='pt-[10px] pr-[5px] lg:pr-[10px] text-[#F0F0F0] font-poppins font-bold text-[31px] leading-[49.6px]'>I'm Rubiya Yasmin, a frontend web developer with a PhD in Computer Science</h2>
+                            <p className='pt-[10px] lg:pr-[85px]  text-[#9F9F9F] font-poppins font-normal text-[15px] leading-[29.3px]'>I'm a frontend web developer focused on creating clean, responsive, and user-friendly websites. I use React and Tailwind CSS to build modern interfaces. Passionate about learning and growth, I turn ideas into functional experiences with attention to detail and a drive for best practices.</p>
 
                             {/* Divider line start */}
-                            <div className="lg:w-[580px] md:w-[580px] divider divider-primary"></div>
+                            <div className="divider divider-primary"></div>
                             {/* Divider line end */}
 
                             {/* Button "Download cv" start  */}
