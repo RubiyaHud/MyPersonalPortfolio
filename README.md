@@ -1,4 +1,4 @@
-### 📦 Install / Initial Setup 
+### 📦 Initial Setup / Installation
 - Create empty folder named "MyPersonalPortfolio"
 - Open the folder in VS Code
 - Create React Project using [Vite](https://vite.dev/guide/)
