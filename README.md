@@ -1,10 +1,23 @@
-### 📦 Install / Initial Setup 
+### 📦 Initial Setup / Installation
 - Create empty folder named "MyPersonalPortfolio"
 - Open the folder in VS Code
 - Create React Project using [Vite](https://vite.dev/guide/)
-- Intall TailwindCSS using as a [Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
+- Install TailwindCSS using as a [Vite plugin](https://tailwindcss.com/docs/installation/using-vite)
 - Organize the files and folders:
     - Create `components` folder inside `src` folder and  create `layouts` folder inside it. `components` contains all small parts/components, layouts and pages, whereas `layouts` contains sections of the webpage.
+      ```css
+          src/
+            │
+            ├── components/
+            │   ├── layouts/
+            │   │   └── [section components go here]
+            │   │
+            │   ├── [small reusable components go here]
+            │   │
+            │   └── pages/
+            │       └── [page-level components go here]
+
+      ```
 - Install [daisyUI](https://daisyui.com/docs/install/) as a Tailwind plugin
 - Install [React Icons](https://react-icons.github.io/react-icons/), Run the following command in your project directory:
   
