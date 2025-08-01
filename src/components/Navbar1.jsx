@@ -66,10 +66,19 @@ const Navbar1 = () => {
 
             {/* Button "Download cv" start  */}
             {/* <!-- From Uiverse.io by carlosepcc --> */}
-            <button class="cursor-pointer px-6 py-2 lg:px-10 lg:py-2 transition-all bg-blue-500 text-white text-[16px] lg:text-[14px] md:text-[14px] font-poppins font-normal  rounded-lg border-blue-600 border-b-[4px] 
-                            hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]">
+
+            <a
+              href="https://drive.google.com/file/d/1TmSOUJc-JqjVYkjSL_7f0krjiczi9Qvx/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cursor-pointer px-6 py-2 lg:px-10 lg:py-2 transition-all bg-blue-500 
+              text-white text-[16px] lg:text-[14px] md:text-[14px] font-poppins font-normal  
+              rounded-lg border-blue-600 border-b-[4px] 
+              hover:brightness-110 hover:-translate-y-[1px] hover:border-b-[6px] active:border-b-[2px] active:brightness-90 active:translate-y-[2px]"
+            >
               Download My CV
-            </button>
+            </a>
+
             {/* Button "Download cv" end  */}
 
           </ul>

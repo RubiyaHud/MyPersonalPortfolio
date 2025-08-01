@@ -10,10 +10,7 @@ const Contact = () => {
             <div className="py-[105px] px-7 bg-black" id="contact" >
                 <Container>
                     <HeadingWithPara className={"mb-[80px]"} classD={""} classH={"text-indigo-500 "} classP={" pt-3"} hText={"Get in Touch"} pText={"Feel free to contact me anytimes"} />
-
                     <ContactMeForm />
-                    
-
                 </Container>
             </div>
 
